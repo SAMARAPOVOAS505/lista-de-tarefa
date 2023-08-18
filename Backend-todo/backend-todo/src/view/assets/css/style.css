@@ -8,16 +8,16 @@
 }
 
 body {
-  background-color: #c1e1f6;
+  background-image: url(/src/view/assets/img/fundo2.avif);
 }
 
 main {
-  background-color: #FFF;
+  background-color: rgba(255, 255, 255, 0.365);
   border-radius: 8px;
   padding: 20px;
   width: 90%;
   margin: 40px auto;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 4px 8px rgba(127, 46, 46, 0.227);
 }
 
 .add-form {
@@ -31,7 +31,7 @@ input {
   width: 100%;
   flex: 1;
   padding: 15px;
-  border: 1px solid #DDD;
+  border: 1px solid rgb(123, 117, 117);
   border-radius: 5px;
   outline: none;
   font-size: 1rem;
@@ -39,12 +39,12 @@ input {
 }
 
 button[type="submit"] {
-  background-color: #0099FF;
+  background-color: #084b70;
   height: 50px;
   width: 50px;
   border: none;
   border-radius: 5px;
-  color: #FFF;
+  color: #eeaf8c;
   font-size: 1.7rem;
   display: flex;
   align-items: center;
@@ -60,17 +60,17 @@ table {
 
 td, th {
   padding: 10px 15px;
-  border: 1px solid #DDD;
+  border: 1px solid #4289ae;
   text-align: center;
 }
 
 td {
-  color: #333;
+  color: #084b70;
   font-weight: 600;
 }
 
 tr:nth-child(even){
-  background-color: #F5F5F5;
+  background-color: #c7a394;
 }
 
 select {
@@ -99,10 +99,10 @@ select:hover {
 }
 
 .btn-action:nth-child(1) {
-  background-color: orange;
+  background-color: rgb(181, 138, 59);
   margin-right: 5px;
 }
 
 .btn-action:nth-child(2) {
-  background-color: rgba(237, 42, 42, 0.9);
+  background-color: rgba(197, 76, 76, 0.9);
 }

@@ -1,5 +1,7 @@
 package br.com.aulajava.backendtodo.model;
 
+import java.sql.Date;
+
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
@@ -15,7 +17,7 @@ public class Task {
     private Long id;
 
     private String title;
-    private String create_at;//mudar para date e matar o banco 
+    private Date create_at;//mudar para date e matar o banco 
     private String status;   
     
 }
