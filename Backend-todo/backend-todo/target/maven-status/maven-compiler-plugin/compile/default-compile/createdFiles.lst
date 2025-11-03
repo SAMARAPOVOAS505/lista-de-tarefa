@@ -1,0 +1,4 @@
+br\com\aulajava\backendtodo\model\Task.class
+br\com\aulajava\backendtodo\controller\TaskController.class
+br\com\aulajava\backendtodo\BackendTodoApplication.class
+br\com\aulajava\backendtodo\repository\TaskRepository.class

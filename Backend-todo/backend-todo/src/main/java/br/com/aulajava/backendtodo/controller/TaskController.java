@@ -20,7 +20,7 @@ import br.com.aulajava.backendtodo.repository.TaskRepository;
 
 @RestController
 @RequestMapping("/tasks")
-@CrossOrigin
+@CrossOrigin 
 public class TaskController {
 
     @Autowired
@@ -34,7 +34,7 @@ public class TaskController {
     }
     
     // Endpoint para buscar uma tarefa pelo ID
-    @GetMapping("/id")
+    @GetMapping("/{id}")
      public ResponseEntity<Task> buscarTasksPorId(@PathVariable Long id){
         Task task = tasksRepository.findById(id).orElse(null);
         if (task !=null) {
@@ -67,7 +67,7 @@ public class TaskController {
         }
     }
     
-    // Endpoint para excluir um produto pelo ID
+    // Endpoint para excluir uma tarefa pelo ID
     @DeleteMapping("/{id}")
     public ResponseEntity<Void> excluirTasks(@PathVariable Long id) {
         Task tasksExistente = tasksRepository.findById(id).orElse(null);
